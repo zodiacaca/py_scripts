@@ -61,7 +61,9 @@ editable_keynames = set([
   'PKEY_Media_MetadataContentProvider',
   'PKEY_Document_Template',
   "PKEY_Music_Conductor",
-  "PKEY_Music_Period"
+  "PKEY_Music_Period",
+  "PKEY_DateModified",
+  "PKEY_Document_ParagraphCount"
 ])
 editable_keys = set([])
 
