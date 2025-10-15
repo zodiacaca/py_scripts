@@ -8,6 +8,9 @@ def tidy_folder(folder_paths):
         for root, folders, files in os.walk(folder_path):
             # print(f"path: {root}, folders: {len(folders)}, count: {len(files)}")
             if len(folders) == 0 and len(files) == 1 and len(root.split("\\")) == 6:
+
+
+            """
                 if files[0] in names:
                     new_name = root.split("\\")[-1] + "." + files[0].split(".")[-1]
                     old_file = os.path.join(root, files[0])
@@ -19,6 +22,7 @@ def tidy_folder(folder_paths):
                     names.append(files[0])
 
             # print(names)
+            """
 
             """
             if len(folders) == 0 and len(files) == 0:
