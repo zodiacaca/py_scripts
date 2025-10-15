@@ -63,7 +63,9 @@ editable_keynames = set([
   "PKEY_Music_Conductor",
   "PKEY_Music_Period",
   "PKEY_DateModified",
-  "PKEY_Document_ParagraphCount"
+  "PKEY_Document_ParagraphCount",
+  "PKEY_Document_HiddenSlideCount",
+  "PKEY_Document_DatePrinted"
 ])
 editable_keys = set([])
 
