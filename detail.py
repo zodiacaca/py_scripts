@@ -66,7 +66,11 @@ editable_keynames = set([
   "PKEY_Document_ParagraphCount",
   "PKEY_Document_HiddenSlideCount",
   "PKEY_Document_DatePrinted",
-  "PKEY_ItemFolderPathDisplay"
+  "PKEY_ItemFolderPathDisplay",
+  "PKEY_Document_RevisionNumber",
+  "PKEY_Document_PageCount",
+  "PKEY_Document_CharacterCount",
+  "PKEY_Document_TotalEditingTime"
 ])
 editable_keys = set([])
 
