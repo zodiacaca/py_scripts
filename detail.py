@@ -70,7 +70,8 @@ editable_keynames = set([
   "PKEY_Document_RevisionNumber",
   "PKEY_Document_PageCount",
   "PKEY_Document_CharacterCount",
-  "PKEY_Document_TotalEditingTime"
+  "PKEY_Document_TotalEditingTime",
+  "PKEY_Company"
 ])
 editable_keys = set([])
 
