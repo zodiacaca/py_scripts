@@ -146,11 +146,8 @@ def edit_details_in_folder(folder_paths):
 if __name__ == "__main__":
     folder_paths = set([
         r"D:\NAS-01-D\Media",
-        # r"E:\NAS-01-E",
-        # r"F:\NAS-01-F",
         # r"U:\NAS-01-U\[porn]",
-        # r"U:\NAS-01-U\GirlsSection",
-        # r"U:\NAS-01-U\impulse"
+        # r"E:\NAS-01-E\impulse"
     ])
 
     edit_details_in_folder(folder_paths)
